@@ -1,0 +1,116 @@
+body {
+    line-height: 250%;
+    font-family: Helvetica, Serif;
+    font-size: 130%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p, div {
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+ul {
+    max-width: 70%;
+    text-align: left;
+    margin: 0 300px 70px;
+}
+
+p2, div {
+    margin: 0 auto;
+}
+
+p1 {
+    margin: 0;
+}
+
+h1 {
+    margin: auto 0 -20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    ul {
+        max-width: 80%;
+        margin: 0 20px 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 110%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    ul {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    #img-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    #image {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 100%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    ul {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    #img-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    #image {
+        width: 90%;
+        height: auto;
+    }
+
+    #tribute-info {
+        padding: 0 10px;
+    }
+}
